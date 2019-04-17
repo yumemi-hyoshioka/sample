@@ -1,0 +1,7 @@
+/vendor
+.project
+/.env
+.DS_Store
+.vscode
+.history
+userinfo.config
