@@ -7,6 +7,9 @@ use App\Http\Responses\ExampleResponse;
 
 class ExampleService
 {
+    /**
+     * ビジネスロジックをゴリゴリ明記していく
+     */
     public function get(ExampleRequest $request): array
     {
         return [

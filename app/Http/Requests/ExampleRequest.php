@@ -5,6 +5,9 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use App\Http\Requests\CommonRequest;
 
+/**
+ * ここでバリデーションチェックを行います。
+ */
 class ExampleRequest extends CommonRequest
 {
     public function authorize(): bool
